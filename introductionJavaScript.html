@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script>
+              console.log("Introduction to javascript");
+        //how to creat a variable
+        // var keyword variable name ;
+       // log is a function
+
+        var a; // decleration of variable
+        console.log(a)
+        console.log(typeof(a)) // datatype undefined
+        a = 10;  // initilization
+        console.log(a)
+        console.log(typeof(a))  // datatype -- number
+        a = "javascript"
+        console.log(a)
+        console.log(typeof(a)) // data type -- string
+        a= true
+        console.log(a)
+        console.log(typeof(a)) // data type-- boolean
+
+
+        //function
+        //how to decleare a function
+        //function used to perform task
+        // function functionname() {
+
+      //  }
+        function display(){
+        console.log("we are learning function in javascript")
+        }
+        display()
+        function add(a , b){
+            console.log(a+b)
+        }
+        add(40 , 56)
+
+        function callFormclickButton(){
+            console.log("we are calling from callFormclickButton")
+        }
+
+
+       </script>
+
+    </head>
+<body>
+
+    <button onclick="callFormclickButton()">click me</button>
+
+    <button onmouseover="callFormMouseoverButton()">Mouse</button>
+
+<div id ="message"></div>
+</body>
+</html>
+
+
